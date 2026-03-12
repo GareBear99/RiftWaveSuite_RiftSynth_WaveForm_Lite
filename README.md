@@ -1,8 +1,8 @@
 # RiftWaveSuite 
 
-WaveForm / RiftSynth Lite
+WaveForm / RiftSynth / Lite 
 
-Repo: WaveForm-RiftSynth-Lite
+
 
 # WaveForm / RiftSynth Lite
 
