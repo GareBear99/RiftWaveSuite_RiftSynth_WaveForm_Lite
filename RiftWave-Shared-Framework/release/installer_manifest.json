@@ -1,0 +1,40 @@
+{
+  "suite": "RiftWaveSuite",
+  "version": "DARPA_v10",
+  "manufacturer": "GareBear Audio",
+  "formats": [
+    "VST3",
+    "AU"
+  ],
+  "products": [
+    {
+      "name": "WaveForm / RiftSynth Lite",
+      "bundle_id": "com.garebearaudio.rws.lite",
+      "install_subdir": "WaveFormRiftSynthLite",
+      "price": 0,
+      "tier": "free"
+    },
+    {
+      "name": "WaveForm Pro",
+      "bundle_id": "com.garebearaudio.rws.waveformpro",
+      "install_subdir": "WaveFormPro",
+      "price": 15,
+      "tier": "paid"
+    },
+    {
+      "name": "RiftSynth Pro",
+      "bundle_id": "com.garebearaudio.rws.riftsynthpro",
+      "install_subdir": "RiftSynthPro",
+      "price": 15,
+      "tier": "paid"
+    }
+  ],
+  "macos": {
+    "signing_required": true,
+    "notarization_required": true,
+    "plugin_paths": [
+      "~/Library/Audio/Plug-Ins/VST3",
+      "~/Library/Audio/Plug-Ins/Components"
+    ]
+  }
+}
