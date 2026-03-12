@@ -372,3 +372,204 @@ Flagship generative instrument in the RiftWave plugin suite.
 # License
 
 MIT License
+
+# RiftWave Shared Framework
+
+Core engine behind the **RiftWave audio plugin suite**.
+
+RiftWave is a modular DSP architecture used to power multiple audio plugins while sharing a single internal framework.
+
+This repository contains the shared DSP, analyzer, sequencing, preset, UI, and export systems used by:
+
+• WaveForm / RiftSynth Lite (free)  
+• WaveForm Pro  
+• RiftSynth Pro  
+
+Instead of duplicating code across repositories, these plugins build on top of a common engine layer.
+
+---
+
+# Overview
+
+RiftWave provides a reusable framework for building modern audio plugins.
+
+The framework handles the common systems required by audio tools:
+
+• DSP synthesis  
+• real-time audio analysis  
+• generative sequencing  
+• preset management  
+• UI infrastructure  
+• export utilities  
+
+All plugins in the RiftWave suite build on this shared foundation.
+
+---
+
+# Architecture
+
+
+DAW Host
+│
+├─ WaveForm / RiftSynth Lite
+├─ WaveForm Pro
+├─ RiftSynth Pro
+│
+└─ RiftWave Shared Framework
+├─ DSP Engine
+├─ Audio Analyzer
+├─ Seed Engine
+├─ Sequencer
+├─ Preset System
+└─ UI Systems
+
+
+This architecture ensures:
+
+• consistent behavior across plugins  
+• less duplicated code  
+• easier maintenance  
+• faster development  
+
+---
+
+# Core Systems
+
+## DSP
+
+Low-level audio building blocks used by the synth engine.
+
+Includes:
+
+• band-limited oscillator shells  
+• oversampling engine scaffolding  
+• parameter smoothing helpers  
+• voice lifecycle helpers  
+
+---
+
+## Audio Analysis
+
+Used by WaveForm plugins.
+
+Provides real-time signal analysis including:
+
+• FFT spectrum analysis  
+• RMS and peak detection  
+• stereo correlation  
+• energy band extraction  
+• transient detection  
+
+---
+
+## Seed Engine
+
+Used by RiftSynth.
+
+Deterministic generation system that produces repeatable musical output.
+
+Features:
+
+• deterministic random generator  
+• seed-based pattern generation  
+• seed mutation and variation tools  
+• seed locking mechanisms  
+
+Same seed → same musical output.
+
+---
+
+## Sequencing
+
+Transport-aware step scheduler.
+
+Supports:
+
+• host BPM synchronization  
+• sample-accurate timing  
+• pattern playback  
+• note lifecycle management  
+
+---
+
+## Preset System
+
+Shared preset architecture used across the suite.
+
+Includes:
+
+• preset codec  
+• JSON serialization helpers  
+• preset indexing  
+• tagged preset lookup  
+
+---
+
+## UI Systems
+
+Reusable interface infrastructure.
+
+Includes:
+
+• UI SFX engine  
+• theme system  
+• parameter attachment helpers  
+• debug snapshot tools  
+
+---
+
+## Export Tools
+
+Shared export helpers.
+
+Includes scaffolding for:
+
+• MIDI export  
+• WAV preview export  
+• seed sharing  
+
+---
+
+# Build
+
+Plugins using this framework rely on:
+
+• JUCE  
+• CMake  
+• modern C++ compiler  
+
+Typical workflow:
+
+
+git clone
+run bootstrap script
+generate CMake project
+build plugin target
+
+
+---
+
+# Projects Using This Framework
+
+WaveForm / RiftSynth Lite  
+Free hybrid visualizer and generative synth.
+
+WaveForm Pro  
+Advanced real-time audio visualization plugin.
+
+RiftSynth Pro  
+Seed-driven generative synthesizer.
+
+---
+
+# License
+
+MIT License
+
+---
+
+# Status
+
+This framework is under active development as part of the **RiftWave plugin suite**.
+
+
