@@ -1,0 +1,10 @@
+{
+  "artifacts": [
+    "build/WaveFormRiftSynthLite_artefacts/Release/VST3",
+    "build/WaveFormRiftSynthLite_artefacts/Release/AU",
+    "build/WaveFormPro_artefacts/Release/VST3",
+    "build/WaveFormPro_artefacts/Release/AU",
+    "build/RiftSynthPro_artefacts/Release/VST3",
+    "build/RiftSynthPro_artefacts/Release/AU"
+  ]
+}

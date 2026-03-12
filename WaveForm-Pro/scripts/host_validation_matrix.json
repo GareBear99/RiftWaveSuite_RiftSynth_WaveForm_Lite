@@ -1,0 +1,33 @@
+{
+  "formats": [
+    "AU",
+    "VST3"
+  ],
+  "hosts": [
+    "Logic Pro",
+    "Ableton Live",
+    "Reaper",
+    "FL Studio"
+  ],
+  "sample_rates": [
+    44100,
+    48000,
+    96000
+  ],
+  "buffer_sizes": [
+    64,
+    128,
+    256,
+    512
+  ],
+  "cases": [
+    "scan",
+    "insert",
+    "automation",
+    "preset_recall",
+    "transport_start_stop",
+    "offline_bounce",
+    "rapid_open_close",
+    "project_reload"
+  ]
+}
