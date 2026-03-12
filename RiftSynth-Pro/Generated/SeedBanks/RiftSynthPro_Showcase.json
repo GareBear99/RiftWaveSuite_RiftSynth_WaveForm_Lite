@@ -1,0 +1,101 @@
+{
+  "product": "RiftSynthPro",
+  "seeds": [
+    {
+      "seed": 757016,
+      "tempo": 100,
+      "scale": "Phrygian",
+      "lanes": 3
+    },
+    {
+      "seed": 149300,
+      "tempo": 140,
+      "scale": "Dorian",
+      "lanes": 3
+    },
+    {
+      "seed": 793287,
+      "tempo": 140,
+      "scale": "Minor",
+      "lanes": 1
+    },
+    {
+      "seed": 715503,
+      "tempo": 100,
+      "scale": "Dorian",
+      "lanes": 2
+    },
+    {
+      "seed": 902452,
+      "tempo": 110,
+      "scale": "Phrygian",
+      "lanes": 1
+    },
+    {
+      "seed": 362731,
+      "tempo": 128,
+      "scale": "Minor",
+      "lanes": 1
+    },
+    {
+      "seed": 994256,
+      "tempo": 90,
+      "scale": "Pentatonic",
+      "lanes": 3
+    },
+    {
+      "seed": 970011,
+      "tempo": 128,
+      "scale": "Pentatonic",
+      "lanes": 3
+    },
+    {
+      "seed": 470299,
+      "tempo": 100,
+      "scale": "Phrygian",
+      "lanes": 1
+    },
+    {
+      "seed": 409808,
+      "tempo": 128,
+      "scale": "Dorian",
+      "lanes": 3
+    },
+    {
+      "seed": 187578,
+      "tempo": 128,
+      "scale": "Dorian",
+      "lanes": 3
+    },
+    {
+      "seed": 907142,
+      "tempo": 128,
+      "scale": "Pentatonic",
+      "lanes": 3
+    },
+    {
+      "seed": 392911,
+      "tempo": 110,
+      "scale": "Phrygian",
+      "lanes": 1
+    },
+    {
+      "seed": 874711,
+      "tempo": 90,
+      "scale": "Minor",
+      "lanes": 1
+    },
+    {
+      "seed": 939054,
+      "tempo": 90,
+      "scale": "Minor",
+      "lanes": 4
+    },
+    {
+      "seed": 848648,
+      "tempo": 140,
+      "scale": "Phrygian",
+      "lanes": 4
+    }
+  ]
+}
