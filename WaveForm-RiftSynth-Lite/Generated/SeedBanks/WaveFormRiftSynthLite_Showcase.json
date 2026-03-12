@@ -1,0 +1,101 @@
+{
+  "product": "WaveFormRiftSynthLite",
+  "seeds": [
+    {
+      "seed": 942558,
+      "tempo": 90,
+      "scale": "Minor",
+      "lanes": 2
+    },
+    {
+      "seed": 169219,
+      "tempo": 128,
+      "scale": "Phrygian",
+      "lanes": 1
+    },
+    {
+      "seed": 932245,
+      "tempo": 128,
+      "scale": "Phrygian",
+      "lanes": 2
+    },
+    {
+      "seed": 894837,
+      "tempo": 110,
+      "scale": "Dorian",
+      "lanes": 4
+    },
+    {
+      "seed": 628483,
+      "tempo": 128,
+      "scale": "Pentatonic",
+      "lanes": 3
+    },
+    {
+      "seed": 326725,
+      "tempo": 110,
+      "scale": "Minor",
+      "lanes": 1
+    },
+    {
+      "seed": 132482,
+      "tempo": 128,
+      "scale": "Phrygian",
+      "lanes": 1
+    },
+    {
+      "seed": 587008,
+      "tempo": 90,
+      "scale": "Minor",
+      "lanes": 2
+    },
+    {
+      "seed": 581702,
+      "tempo": 90,
+      "scale": "Dorian",
+      "lanes": 3
+    },
+    {
+      "seed": 236955,
+      "tempo": 128,
+      "scale": "Phrygian",
+      "lanes": 2
+    },
+    {
+      "seed": 397416,
+      "tempo": 110,
+      "scale": "Minor",
+      "lanes": 4
+    },
+    {
+      "seed": 947685,
+      "tempo": 90,
+      "scale": "Minor",
+      "lanes": 1
+    },
+    {
+      "seed": 128020,
+      "tempo": 128,
+      "scale": "Minor",
+      "lanes": 2
+    },
+    {
+      "seed": 809427,
+      "tempo": 100,
+      "scale": "Minor",
+      "lanes": 2
+    },
+    {
+      "seed": 383504,
+      "tempo": 110,
+      "scale": "Pentatonic",
+      "lanes": 4
+    },
+    {
+      "seed": 659187,
+      "tempo": 120,
+      "scale": "Pentatonic",
+      "lanes": 2
+    }
+  ]
+}
