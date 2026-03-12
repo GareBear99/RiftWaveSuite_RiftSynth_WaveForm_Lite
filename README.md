@@ -1,6 +1,6 @@
 # RiftWaveSuite 
 
-WaveForm / RiftSynth / Lite 
+WaveForm / RiftSynth / Lite Combo (Free)
 
 
 
